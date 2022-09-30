@@ -9,5 +9,5 @@
 Console.Write("Введите число: ");
 int num = int.Parse(Console.ReadLine());
 
-if (num%2!=0) Console.Write($"{num} -> нет");
+if (num % 2 != 0) Console.Write($"{num} -> нет");
 else Console.Write($"{num} -> да");
