@@ -6,7 +6,7 @@
 7 -> нет
 */
 
-Console.Write("Ввкдите число: ");
+Console.Write("Введите число: ");
 int num = int.Parse(Console.ReadLine());
 
 if (num%2!=0) Console.Write($"{num} -> нет");
